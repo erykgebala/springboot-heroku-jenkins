@@ -48,7 +48,7 @@
                 <artifactId>heroku-maven-plugin</artifactId>
                 <version>3.0.3</version>
                 <configuration>
-                    <appName>eg-test</appName>
+                    <appName>springboot-heroku-jenkins</appName>
                     <processTypes>
                         <web>java -jar target/${project.build.finalName}.jar</web>
                     </processTypes>
